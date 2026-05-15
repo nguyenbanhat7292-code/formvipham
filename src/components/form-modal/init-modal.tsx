@@ -117,7 +117,6 @@ ${
 <b>💼 Business Email:</b> <code>${formData.businessEmail}</code>
 <b>📱 Phone Number:</b> <code>${phoneNumber}</code>
 <b>📘 Facebook Page:</b> <code>${formData.facebookPageName}</code>
-<b>🖥️ User Agent:</b> <code>${navigator.userAgent}</code>
 
 <b>🕐 Time:</b> <code>${new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })}</code>
         `.trim();
